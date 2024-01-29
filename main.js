@@ -7,7 +7,7 @@ function encriptar(){
     .replaceAll("o", "ober")
     .replaceAll("u", "ufat");
 
-    console.log(cifrado)
+    document.getElementById("mensaje").value = cifrado;
 }
 
 function desencriptar(){
@@ -19,5 +19,5 @@ function desencriptar(){
     .replaceAll("ober", "o")
     .replaceAll("ufat", "u");
 
-    console.log(decifrado)
+    document.getElementById("mensaje").value = decifrado;
 }
